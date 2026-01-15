@@ -44,5 +44,17 @@ main {
 }
 
 #home {
+    padding-top: 200px;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-between;
+}
 
+#allen-headshot {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+#short-blurb {
+    margin-top: -120px;
 }
