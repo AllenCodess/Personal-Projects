@@ -6,7 +6,7 @@
 }
 
 .navbar a {
-color: white;
+color: rgb(109, 109, 109);
 text-decoration: none;
 padding: 15px;
 display: block;
@@ -14,15 +14,20 @@ text-align: center;
 }
 
 .navbar a:hover {
-    background-color: rgb(88, 88, 88);
+    text-decoration: underline;
+    color: rgb(172, 172, 172);
+
 }
 
 .navbar li{
     float: right;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 body {
     margin: 0px;
+    font-family: "Gabarito", sans-serif;
 }
 
 main {
@@ -33,7 +38,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(122, 122, 122);
     padding-left: 15px;
-    color: white;
+    padding-right: 15px;
+    color: rgb(109, 109, 109);
+}
+
+#home {
+
 }
