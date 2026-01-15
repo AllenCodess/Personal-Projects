@@ -71,10 +71,16 @@ h3 {
 }
 
 #Skills {
-    margin-top: 500px;
     display: flex;
     width: 100px;
     height: 100px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.skills-header {
+    padding-top: 400px;
 }
 
 html {
