@@ -72,6 +72,8 @@ h3 {
 }
 #short-blurb {
     margin-top: -120px;
+    margin-left: 200px;
+    font-size: 20px;
 }
 
 #Skills {
@@ -81,11 +83,24 @@ h3 {
     margin: auto;
     justify-content: center;
     margin-bottom: 200px;
-
+    
 }
+
+
 
 .skills-header {
     padding-top: 400px;
+}
+
+.button, .buttonthree, .buttontwo {
+    font-family: "Gabarito", sans-serif;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.buttontwo {
+    margin-top: -20px;
 }
 
 html {
@@ -146,4 +161,16 @@ form {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(172, 172, 172);
+    display: flex;
+}
+
+#linkedin-photo, #github-photo {
+    width: 50px;
+    height: 40px;
 }
